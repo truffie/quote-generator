@@ -17,12 +17,4 @@ generateQuotes = (list) => {
 setInterval(generateQuotes, 2000, qoutesList)
 
 
-const sum = (arr) => {
 
-    if(typeof arr !== 'object' || arr.every(el => el > 0)) {
-      return 'error'
-    }
-    return arr.reduce((acc, el) => acc * el, 1);
-
-}
-console.log(sum([-1, 2, 3, 4, 5]));
