@@ -14,7 +14,7 @@ generateQuotes = (list) => {
   let random = Math.floor(Math.random() * list.length);
   quote.textContent = list[random];
 }
-setInterval(generateQuotes, 2000, qoutesList)
+setInterval(generateQuotes, 5000, qoutesList)
 
 
 
